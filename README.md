@@ -4,19 +4,30 @@
 
 Dieses Projekt implementiert eine batch-basierte Datenarchitektur für die Verarbeitung großer Datenmengen.
 
-## Architektur
+## Architekturkomponenten
 
-Die Architektur besteht aus:
+### Data Ingestion
+Aufnahme der Rohdaten in das System.
 
-- Data Ingestion Service
-- Data Storage Service
-- Data Processing Service
-- Docker Container
+### Data Storage
+Dauerhafte Speicherung der Daten.
 
-## Ziele
+### Data Processing
+Batch-Verarbeitung, Aggregation und Vorverarbeitung der Daten.
+
+### Containerisierung
+Die Microservices werden mit Docker bereitgestellt.
+
+## Qualitätsmerkmale
 
 - Reliability
 - Scalability
 - Maintainability
 - Data Security
 - Data Governance
+
+## Architekturdiagramm
+
+Das Architekturdiagramm befindet sich in:
+
+architecture.png.jpeg
