@@ -30,6 +30,4 @@ Die Microservices werden mit Docker bereitgestellt.
 
 Das Architekturdiagramm befindet sich in:
 
-## Architekturdiagramm
-
 architecture.png.jpeg
